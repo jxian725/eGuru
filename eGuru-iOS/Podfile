@@ -1,0 +1,7 @@
+target 'eGuru-iOS' do
+  use_frameworks!
+pod 'GCDWebServer','~> 3.0'
+pod 'Telegraph'
+
+
+end

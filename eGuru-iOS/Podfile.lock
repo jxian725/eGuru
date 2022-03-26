@@ -1,0 +1,30 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - HTTPParserC (2.9.4)
+  - Telegraph (0.29):
+    - CocoaAsyncSocket (~> 7.6)
+    - HTTPParserC (~> 2.9)
+
+DEPENDENCIES:
+  - GCDWebServer (~> 3.0)
+  - Telegraph
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - GCDWebServer
+    - HTTPParserC
+    - Telegraph
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  HTTPParserC: aea14c3d2d4ac5beb3988781daa36dfa62e0d9ef
+  Telegraph: 0cae12d0c9efa5a33de08286c8a71d4c4d16a70c
+
+PODFILE CHECKSUM: 4ee2ab184055542a012466f444cec7c5d052d4ef
+
+COCOAPODS: 1.11.2

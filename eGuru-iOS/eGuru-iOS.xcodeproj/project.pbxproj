@@ -7,62 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4FA5CC127EF1DAA00B76F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5CC027EF1DAA00B76F83 /* AppDelegate.swift */; };
-		F4FA5CC327EF1DAA00B76F83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5CC227EF1DAA00B76F83 /* SceneDelegate.swift */; };
-		F4FA5CC527EF1DAA00B76F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5CC427EF1DAA00B76F83 /* ViewController.swift */; };
-		F4FA5CC827EF1DAA00B76F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5CC627EF1DAA00B76F83 /* Main.storyboard */; };
-		F4FA5CCA27EF1DAB00B76F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5CC927EF1DAB00B76F83 /* Assets.xcassets */; };
-		F4FA5CCD27EF1DAB00B76F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5CCB27EF1DAB00B76F83 /* LaunchScreen.storyboard */; };
+		2A1474083FBD22F0C27788A2 /* Pods_eGuru_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C364B35FD228A6F85DFD00 /* Pods_eGuru_iOS.framework */; };
+		F4FA5CEB27EF22A800B76F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5CEA27EF22A800B76F83 /* AppDelegate.swift */; };
+		F4FA5CED27EF22A800B76F83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5CEC27EF22A800B76F83 /* SceneDelegate.swift */; };
+		F4FA5CEF27EF22A800B76F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5CEE27EF22A800B76F83 /* ViewController.swift */; };
+		F4FA5CF227EF22A800B76F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5CF027EF22A800B76F83 /* Main.storyboard */; };
+		F4FA5CF427EF22A900B76F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5CF327EF22A900B76F83 /* Assets.xcassets */; };
+		F4FA5CF727EF22A900B76F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5CF527EF22A900B76F83 /* LaunchScreen.storyboard */; };
+		F4FA5CFF27EF235300B76F83 /* localhost.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5CFE27EF235300B76F83 /* localhost.p12 */; };
+		F4FA5D0127EF235A00B76F83 /* ca.der in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5D0027EF235A00B76F83 /* ca.der */; };
+		F4FA5D0327EF236200B76F83 /* qrScanner_Area.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5D0227EF236200B76F83 /* qrScanner_Area.png */; };
+		F4FA5D0527EF236900B76F83 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5D0427EF236900B76F83 /* QRScannerController.swift */; };
+		F4FA5D0727EF241300B76F83 /* webview in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5D0627EF241300B76F83 /* webview */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4FA5CBD27EF1DAA00B76F83 /* eGuru-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eGuru-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4FA5CC027EF1DAA00B76F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4FA5CC227EF1DAA00B76F83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4FA5CC427EF1DAA00B76F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4FA5CC727EF1DAA00B76F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F4FA5CC927EF1DAB00B76F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F4FA5CCC27EF1DAB00B76F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F4FA5CCE27EF1DAB00B76F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C364B35FD228A6F85DFD00 /* Pods_eGuru_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eGuru_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B630E60FD4ABB6690C8B87E7 /* Pods-eGuru-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eGuru-iOS.debug.xcconfig"; path = "Target Support Files/Pods-eGuru-iOS/Pods-eGuru-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CDAF9FDFAAB6D25C51F3ECD4 /* Pods-eGuru-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eGuru-iOS.release.xcconfig"; path = "Target Support Files/Pods-eGuru-iOS/Pods-eGuru-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F4FA5CE727EF22A800B76F83 /* eGuru-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eGuru-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FA5CEA27EF22A800B76F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4FA5CEC27EF22A800B76F83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4FA5CEE27EF22A800B76F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4FA5CF127EF22A800B76F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4FA5CF327EF22A900B76F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4FA5CF627EF22A900B76F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4FA5CF827EF22A900B76F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FA5CFE27EF235300B76F83 /* localhost.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = localhost.p12; sourceTree = "<group>"; };
+		F4FA5D0027EF235A00B76F83 /* ca.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = ca.der; sourceTree = "<group>"; };
+		F4FA5D0227EF236200B76F83 /* qrScanner_Area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrScanner_Area.png; sourceTree = "<group>"; };
+		F4FA5D0427EF236900B76F83 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		F4FA5D0627EF241300B76F83 /* webview */ = {isa = PBXFileReference; lastKnownFileType = folder; name = webview; path = ../../webview; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4FA5CBA27EF1DAA00B76F83 /* Frameworks */ = {
+		F4FA5CE427EF22A800B76F83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1474083FBD22F0C27788A2 /* Pods_eGuru_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F4FA5CB427EF1DAA00B76F83 = {
+		44C223FC3FFE892D477A4516 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F4FA5CBF27EF1DAA00B76F83 /* eGuru-iOS */,
-				F4FA5CBE27EF1DAA00B76F83 /* Products */,
+				82C364B35FD228A6F85DFD00 /* Pods_eGuru_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C19AD2A9A0CC32DA6B81B726 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B630E60FD4ABB6690C8B87E7 /* Pods-eGuru-iOS.debug.xcconfig */,
+				CDAF9FDFAAB6D25C51F3ECD4 /* Pods-eGuru-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4FA5CDE27EF22A800B76F83 = {
+			isa = PBXGroup;
+			children = (
+				F4FA5CE927EF22A800B76F83 /* eGuru-iOS */,
+				F4FA5CE827EF22A800B76F83 /* Products */,
+				C19AD2A9A0CC32DA6B81B726 /* Pods */,
+				44C223FC3FFE892D477A4516 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F4FA5CBE27EF1DAA00B76F83 /* Products */ = {
+		F4FA5CE827EF22A800B76F83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4FA5CBD27EF1DAA00B76F83 /* eGuru-iOS.app */,
+				F4FA5CE727EF22A800B76F83 /* eGuru-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4FA5CBF27EF1DAA00B76F83 /* eGuru-iOS */ = {
+		F4FA5CE927EF22A800B76F83 /* eGuru-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F4FA5CC027EF1DAA00B76F83 /* AppDelegate.swift */,
-				F4FA5CC227EF1DAA00B76F83 /* SceneDelegate.swift */,
-				F4FA5CC427EF1DAA00B76F83 /* ViewController.swift */,
-				F4FA5CC627EF1DAA00B76F83 /* Main.storyboard */,
-				F4FA5CC927EF1DAB00B76F83 /* Assets.xcassets */,
-				F4FA5CCB27EF1DAB00B76F83 /* LaunchScreen.storyboard */,
-				F4FA5CCE27EF1DAB00B76F83 /* Info.plist */,
+				F4FA5CEA27EF22A800B76F83 /* AppDelegate.swift */,
+				F4FA5CEC27EF22A800B76F83 /* SceneDelegate.swift */,
+				F4FA5CEE27EF22A800B76F83 /* ViewController.swift */,
+				F4FA5CF027EF22A800B76F83 /* Main.storyboard */,
+				F4FA5D0627EF241300B76F83 /* webview */,
+				F4FA5CF327EF22A900B76F83 /* Assets.xcassets */,
+				F4FA5CFE27EF235300B76F83 /* localhost.p12 */,
+				F4FA5CF527EF22A900B76F83 /* LaunchScreen.storyboard */,
+				F4FA5D0427EF236900B76F83 /* QRScannerController.swift */,
+				F4FA5D0027EF235A00B76F83 /* ca.der */,
+				F4FA5D0227EF236200B76F83 /* qrScanner_Area.png */,
+				F4FA5CF827EF22A900B76F83 /* Info.plist */,
 			);
 			path = "eGuru-iOS";
 			sourceTree = "<group>";
@@ -70,13 +109,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4FA5CBC27EF1DAA00B76F83 /* eGuru-iOS */ = {
+		F4FA5CE627EF22A800B76F83 /* eGuru-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4FA5CD127EF1DAB00B76F83 /* Build configuration list for PBXNativeTarget "eGuru-iOS" */;
+			buildConfigurationList = F4FA5CFB27EF22A900B76F83 /* Build configuration list for PBXNativeTarget "eGuru-iOS" */;
 			buildPhases = (
-				F4FA5CB927EF1DAA00B76F83 /* Sources */,
-				F4FA5CBA27EF1DAA00B76F83 /* Frameworks */,
-				F4FA5CBB27EF1DAA00B76F83 /* Resources */,
+				2168E9616016C1AC2666638E /* [CP] Check Pods Manifest.lock */,
+				F4FA5CE327EF22A800B76F83 /* Sources */,
+				F4FA5CE427EF22A800B76F83 /* Frameworks */,
+				F4FA5CE527EF22A800B76F83 /* Resources */,
+				FC1BCB73F459B96A2C8C67AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,25 +125,25 @@
 			);
 			name = "eGuru-iOS";
 			productName = "eGuru-iOS";
-			productReference = F4FA5CBD27EF1DAA00B76F83 /* eGuru-iOS.app */;
+			productReference = F4FA5CE727EF22A800B76F83 /* eGuru-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F4FA5CB527EF1DAA00B76F83 /* Project object */ = {
+		F4FA5CDF27EF22A800B76F83 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					F4FA5CBC27EF1DAA00B76F83 = {
+					F4FA5CE627EF22A800B76F83 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = F4FA5CB827EF1DAA00B76F83 /* Build configuration list for PBXProject "eGuru-iOS" */;
+			buildConfigurationList = F4FA5CE227EF22A800B76F83 /* Build configuration list for PBXProject "eGuru-iOS" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +151,102 @@
 				en,
 				Base,
 			);
-			mainGroup = F4FA5CB427EF1DAA00B76F83;
-			productRefGroup = F4FA5CBE27EF1DAA00B76F83 /* Products */;
+			mainGroup = F4FA5CDE27EF22A800B76F83;
+			productRefGroup = F4FA5CE827EF22A800B76F83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4FA5CBC27EF1DAA00B76F83 /* eGuru-iOS */,
+				F4FA5CE627EF22A800B76F83 /* eGuru-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F4FA5CBB27EF1DAA00B76F83 /* Resources */ = {
+		F4FA5CE527EF22A800B76F83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4FA5CCD27EF1DAB00B76F83 /* LaunchScreen.storyboard in Resources */,
-				F4FA5CCA27EF1DAB00B76F83 /* Assets.xcassets in Resources */,
-				F4FA5CC827EF1DAA00B76F83 /* Main.storyboard in Resources */,
+				F4FA5D0127EF235A00B76F83 /* ca.der in Resources */,
+				F4FA5CF727EF22A900B76F83 /* LaunchScreen.storyboard in Resources */,
+				F4FA5CF427EF22A900B76F83 /* Assets.xcassets in Resources */,
+				F4FA5CF227EF22A800B76F83 /* Main.storyboard in Resources */,
+				F4FA5D0327EF236200B76F83 /* qrScanner_Area.png in Resources */,
+				F4FA5D0727EF241300B76F83 /* webview in Resources */,
+				F4FA5CFF27EF235300B76F83 /* localhost.p12 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2168E9616016C1AC2666638E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eGuru-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1BCB73F459B96A2C8C67AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eGuru-iOS/Pods-eGuru-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eGuru-iOS/Pods-eGuru-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eGuru-iOS/Pods-eGuru-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		F4FA5CB927EF1DAA00B76F83 /* Sources */ = {
+		F4FA5CE327EF22A800B76F83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4FA5CC527EF1DAA00B76F83 /* ViewController.swift in Sources */,
-				F4FA5CC127EF1DAA00B76F83 /* AppDelegate.swift in Sources */,
-				F4FA5CC327EF1DAA00B76F83 /* SceneDelegate.swift in Sources */,
+				F4FA5CEF27EF22A800B76F83 /* ViewController.swift in Sources */,
+				F4FA5D0527EF236900B76F83 /* QRScannerController.swift in Sources */,
+				F4FA5CEB27EF22A800B76F83 /* AppDelegate.swift in Sources */,
+				F4FA5CED27EF22A800B76F83 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4FA5CC627EF1DAA00B76F83 /* Main.storyboard */ = {
+		F4FA5CF027EF22A800B76F83 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4FA5CC727EF1DAA00B76F83 /* Base */,
+				F4FA5CF127EF22A800B76F83 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F4FA5CCB27EF1DAB00B76F83 /* LaunchScreen.storyboard */ = {
+		F4FA5CF527EF22A900B76F83 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4FA5CCC27EF1DAB00B76F83 /* Base */,
+				F4FA5CF627EF22A900B76F83 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +254,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F4FA5CCF27EF1DAB00B76F83 /* Debug */ = {
+		F4FA5CF927EF22A900B76F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +315,7 @@
 			};
 			name = Debug;
 		};
-		F4FA5CD027EF1DAB00B76F83 /* Release */ = {
+		F4FA5CFA27EF22A900B76F83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,8 +370,9 @@
 			};
 			name = Release;
 		};
-		F4FA5CD227EF1DAB00B76F83 /* Debug */ = {
+		F4FA5CFC27EF22A900B76F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B630E60FD4ABB6690C8B87E7 /* Pods-eGuru-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,12 +381,15 @@
 				DEVELOPMENT_TEAM = Q5837PFX5W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "eGuru-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "E-Guru";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Program requires camera access for scanning QR and uploading image";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,8 +403,9 @@
 			};
 			name = Debug;
 		};
-		F4FA5CD327EF1DAB00B76F83 /* Release */ = {
+		F4FA5CFD27EF22A900B76F83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAF9FDFAAB6D25C51F3ECD4 /* Pods-eGuru-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,12 +414,15 @@
 				DEVELOPMENT_TEAM = Q5837PFX5W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "eGuru-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "E-Guru";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Program requires camera access for scanning QR and uploading image";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,25 +439,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4FA5CB827EF1DAA00B76F83 /* Build configuration list for PBXProject "eGuru-iOS" */ = {
+		F4FA5CE227EF22A800B76F83 /* Build configuration list for PBXProject "eGuru-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4FA5CCF27EF1DAB00B76F83 /* Debug */,
-				F4FA5CD027EF1DAB00B76F83 /* Release */,
+				F4FA5CF927EF22A900B76F83 /* Debug */,
+				F4FA5CFA27EF22A900B76F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4FA5CD127EF1DAB00B76F83 /* Build configuration list for PBXNativeTarget "eGuru-iOS" */ = {
+		F4FA5CFB27EF22A900B76F83 /* Build configuration list for PBXNativeTarget "eGuru-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4FA5CD227EF1DAB00B76F83 /* Debug */,
-				F4FA5CD327EF1DAB00B76F83 /* Release */,
+				F4FA5CFC27EF22A900B76F83 /* Debug */,
+				F4FA5CFD27EF22A900B76F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F4FA5CB527EF1DAA00B76F83 /* Project object */;
+	rootObject = F4FA5CDF27EF22A800B76F83 /* Project object */;
 }
