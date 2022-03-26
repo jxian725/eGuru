@@ -23,6 +23,8 @@ class ViewController: UIViewController,WKScriptMessageHandler,UIWebViewDelegate,
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "E-Guru"
+        configureButtons()
         view.addSubview(webView)
         guard let url = URL(string: "http://localhost:3231/index.html") else {
             return
@@ -35,6 +37,30 @@ class ViewController: UIViewController,WKScriptMessageHandler,UIWebViewDelegate,
         loadCertificates(url: url)
     }
     
+    private func configureButtons(){
+        navigationItem.leftBarButtonItem = UIBarButtonItem(
+            barButtonSystemItem: .reply, target: self, action: #selector(goBackIfPossible)
+        )
+        navigationItem.rightBarButtonItem = UIBarButtonItem(
+            title: "Main Menu", style: .plain, target: self, action: #selector(returnHome)
+        )
+    }
+    
+    @objc func goBackIfPossible(){
+        self.callJavascriptFunc(parameter: "history.back();")
+        //if webView.canGoBack {
+        //    webView.goBack()
+        //}else{
+        //    showToast(message: "Unable to go backward", font: .systemFont(ofSize: 12.0))
+        //}
+    }
+    
+    @objc func returnHome(){
+        guard let url = URL(string: "http://localhost:3231/index.html") else {
+            return
+        }
+        webView.load(URLRequest(url: url))
+    }
     
     private func loadCertificates(url: URL) {
         if let identityURL = Bundle.main.url(forResource: "localhost", withExtension: "p12") {
@@ -167,6 +193,7 @@ class ViewController: UIViewController,WKScriptMessageHandler,UIWebViewDelegate,
     
     @objc private func handleSwipe(recognizer: UISwipeGestureRecognizer) {
         if (recognizer.direction == .right) {
+            print("detected swipe")
             if webView.canGoBack {
                 self.callJavascriptFunc(parameter: "history.back();")
             }

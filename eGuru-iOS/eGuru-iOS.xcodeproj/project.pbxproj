@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A1474083FBD22F0C27788A2 /* Pods_eGuru_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C364B35FD228A6F85DFD00 /* Pods_eGuru_iOS.framework */; };
+		F41F5D2527EF66AB00C9759A /* webview in Resources */ = {isa = PBXBuildFile; fileRef = F41F5D2427EF66AB00C9759A /* webview */; };
 		F4FA5CEB27EF22A800B76F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5CEA27EF22A800B76F83 /* AppDelegate.swift */; };
 		F4FA5CED27EF22A800B76F83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5CEC27EF22A800B76F83 /* SceneDelegate.swift */; };
 		F4FA5CEF27EF22A800B76F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5CEE27EF22A800B76F83 /* ViewController.swift */; };
@@ -18,13 +19,13 @@
 		F4FA5D0127EF235A00B76F83 /* ca.der in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5D0027EF235A00B76F83 /* ca.der */; };
 		F4FA5D0327EF236200B76F83 /* qrScanner_Area.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5D0227EF236200B76F83 /* qrScanner_Area.png */; };
 		F4FA5D0527EF236900B76F83 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA5D0427EF236900B76F83 /* QRScannerController.swift */; };
-		F4FA5D0727EF241300B76F83 /* webview in Resources */ = {isa = PBXBuildFile; fileRef = F4FA5D0627EF241300B76F83 /* webview */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		82C364B35FD228A6F85DFD00 /* Pods_eGuru_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eGuru_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B630E60FD4ABB6690C8B87E7 /* Pods-eGuru-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eGuru-iOS.debug.xcconfig"; path = "Target Support Files/Pods-eGuru-iOS/Pods-eGuru-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		CDAF9FDFAAB6D25C51F3ECD4 /* Pods-eGuru-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eGuru-iOS.release.xcconfig"; path = "Target Support Files/Pods-eGuru-iOS/Pods-eGuru-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F41F5D2427EF66AB00C9759A /* webview */ = {isa = PBXFileReference; lastKnownFileType = folder; name = webview; path = ../../webview; sourceTree = "<group>"; };
 		F4FA5CE727EF22A800B76F83 /* eGuru-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eGuru-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FA5CEA27EF22A800B76F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4FA5CEC27EF22A800B76F83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		F4FA5D0027EF235A00B76F83 /* ca.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = ca.der; sourceTree = "<group>"; };
 		F4FA5D0227EF236200B76F83 /* qrScanner_Area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrScanner_Area.png; sourceTree = "<group>"; };
 		F4FA5D0427EF236900B76F83 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
-		F4FA5D0627EF241300B76F83 /* webview */ = {isa = PBXFileReference; lastKnownFileType = folder; name = webview; path = ../../webview; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +94,9 @@
 				F4FA5CEC27EF22A800B76F83 /* SceneDelegate.swift */,
 				F4FA5CEE27EF22A800B76F83 /* ViewController.swift */,
 				F4FA5CF027EF22A800B76F83 /* Main.storyboard */,
-				F4FA5D0627EF241300B76F83 /* webview */,
 				F4FA5CF327EF22A900B76F83 /* Assets.xcassets */,
 				F4FA5CFE27EF235300B76F83 /* localhost.p12 */,
+				F41F5D2427EF66AB00C9759A /* webview */,
 				F4FA5CF527EF22A900B76F83 /* LaunchScreen.storyboard */,
 				F4FA5D0427EF236900B76F83 /* QRScannerController.swift */,
 				F4FA5D0027EF235A00B76F83 /* ca.der */,
@@ -171,7 +171,7 @@
 				F4FA5CF427EF22A900B76F83 /* Assets.xcassets in Resources */,
 				F4FA5CF227EF22A800B76F83 /* Main.storyboard in Resources */,
 				F4FA5D0327EF236200B76F83 /* qrScanner_Area.png in Resources */,
-				F4FA5D0727EF241300B76F83 /* webview in Resources */,
+				F41F5D2527EF66AB00C9759A /* webview in Resources */,
 				F4FA5CFF27EF235300B76F83 /* localhost.p12 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
